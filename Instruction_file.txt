@@ -1,0 +1,31 @@
+Thanks for your participation at this survey, here below are the instructions of how the program works:
+
+In this survey you will be presented 15 random samples out of 88 possible samples. 
+
+For each sample you will see 2/3 feature maps images computed using Fisher's score method over PSDs of single runs 
+for that subject plus an additional feature map image that is obtained from the concatenation of the single runs
+
+The feature map that represent the concatenation of the single runs has an interactive grid where each cell is clickable
+Every cell of the grid correspond to a given pair Channel-Frequency feature for the discrimination of the Both Hands vs.
+Both Feet motor imagery problem.
+
+Your task is to select the cells of the grid that you consider to be the most useful for training a classifier that will
+be used for distinguishing the two classes.
+
+The application presents you several buttons that can be used to display additional images that can be useful to guide the decision
+about the cells to select.
+
+In particular it will be possible to see the ERD/ERS scalogram of each individual channel of the 16 available by simply selecting the corresponding
+cell on the 4x4 grid that has the labels of the channels and then clicking the button below the grid to open the windows that will display the plots
+
+Other than that, you will be able to have a look at the ERD/ERS values over time under the form of topoplots in the mu and beta band
+
+In order to confirm the selection of the cells for the given sample you will need to press the enter key.
+Once you confirm your choices, all the opened windows for the images will close, the grid with the selected cells will be cleared and a new sample
+will be loaded and displayed in order to be evaluated
+
+At the end, the program will automatically close and generate a .txt file that reports all your choices for each analyzed sample.
+
+For any other kind of information, please refer to the GitHub page where you downloaded this program.
+
+For starting the survey, press the enter key  
