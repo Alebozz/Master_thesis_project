@@ -1,5 +1,5 @@
 # Master_thesis_project
-Thanks in advance to everyone that participates in project for my master thesis.
+Thanks in advance to everyone that participates in this project for my master thesis.
 
 This project aims at collecting data about choices of features for a Both Hands vs. Both Feet motor imagery classification.
 In particular, by inspecting images reporting ERD/ERS spectrograms (computed using Welch's method), ERD/ERS Scalograms (computed using Matlab cwt function with "Amor" wavelet), ERD/ERS topoplots over time and Fisher's scores features maps calculated starting from the signal PSD, the goal is to select the features ( frequency-channel pairs) that you consider the most valuable and discriminative in order to train a classifier for that specific subject.
