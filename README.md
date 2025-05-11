@@ -1,6 +1,6 @@
 # Master_thesis_project
-Thanks in advance to everyone that participates in this project for my master thesis.
-In order to participate in the survey, having python installed on your personal computer is required!
+Thanks in advance to everyone that participates in this project for my master thesis.\n
+In order to participate in the survey, having python installed on your personal computer IS REQUIRED! You can install it from the following link https://www.python.org/ftp/python/3.8.10/python-3.8.10.exe
 Instructions on how to create a virtual environment to run the survey will be presented later.
 
 This project aims at collecting data about choices of features for a Both Hands vs. Both Feet motor imagery classification.
