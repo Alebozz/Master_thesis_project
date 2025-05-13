@@ -38,7 +38,7 @@ Once you downloaded the zip file, you will need to extract its content(it will t
     ```
 5) The virtual environment should be correctly set up now and the program can be executed using the following command on the command terminal
   ```console
-  python survey_1.0.py
+  python survey_v1.0.py
   ```
 Don't worry if the program doesn't start immediatly, the first time it is launched it can take 1 or 2 minutes to start
 
@@ -57,7 +57,7 @@ Don't worry if the program doesn't start immediatly, the first time it is launch
    ```
 4) The virtual environment should be corretly set up now and the program can be executed using the following command on the command terminal
   ```console
-  python survey_1.0.py
+  python survey_v1.0.py
   ```
 Don't worry if the program doesn't start immediatly, the first time it is launched it can take 1 or 2 minutes to start
 
