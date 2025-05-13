@@ -14,8 +14,8 @@ The application presents you several buttons that can be used to display additio
 about the cells to select.
 
 In particular it will be possible to see the ERD/ERS spectrograms of each individual channel of the 15 available by simply selecting the corresponding
-cells on the 4x4 grid that has the labels of the channels and then clicking the button below the grid to open the windows that will display the plots.
-Other than that, you will be able to have a look at the ERD/ERS values over time under the form of topoplots in the mu(8-14Hz) and beta(15-30Hz) band
+cells on the 5x3 grid that has the labels of the channels and then clicking the button below the grid to open the windows that will display the plots.
+Other than that, you will be able to have a look at the ERD/ERS values over time under the form of topoplots in the mu(8-14Hz) and beta(14-30Hz) band
 
 In order to confirm the selection of the cells for the given sample you will need to press the enter key.
 After the enter key is pressed, the choices are saved automatically to a .txt file that will be located in the same folder of the python script you are executing
