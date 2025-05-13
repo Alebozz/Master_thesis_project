@@ -67,7 +67,7 @@ Don't worry if the program doesn't start immediatly, the first time it is launch
 
 The program should now be running and you should be able to take the survey and at the end you can report your results by sending the auto-generated "final_results.txt" file using the survey at the Answer link below, where you can also report any problem encountered when trying to take the survey.
 
-Answer link: PUT HERE LINK TO THE ACTUAL SURVEY https://suncake.com/v/2b617e23
+Answer link: https://suncake.com/v/2b617e23
 
 This section will contain useful instructions on how to use the program for the survey
 
