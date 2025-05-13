@@ -34,11 +34,11 @@ Once you downloaded the zip file, you will need to extract its content(it will t
    ```
    After that you can proceed with the following command to set up the virtual environment in order to run the program. To do so, use the following command in the command terminal
    ```console
-      pip install -r requirements.txt
+   pip install -r requirements.txt
     ```
 5) The virtual environment should be correctly set up now and the program can be executed using the following command on the command terminal
   ```console
-      python survey_1.0.py
+  python survey_1.0.py
   ```
 Don't worry if the program doesn't start immediatly, the first time it is launched it can take 1 or 2 minutes to start
 
