@@ -21,14 +21,22 @@ Once you downloaded the zip file, you will need to extract its content(it will t
 3) now, in order to create the virtual environment to run the python script you will need to enter the following commands in the same order as they are presented:
    ```console
       python3 -m venv env
-      Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
       .\env\Scripts\activate
+    ```
+   if you receive an error after using the .\env\Scripts\activate command, telling you that the system does not let you run scripts, you can use the following commands to solve the problem
+   ```console
+      Set-ExecutionPolicy Unrestricted -Scope Process
+      .\env\Scripts\activate
+    ```
+   After that you can proceed with the following command to set up the virtual environment in order to run the program. To do so, use the following command in the command terminal
+   ```console
       pip install -r requirements.txt
     ```
-4) The virtual environment should be corretly set up now and the program can be executed using the following command on the command terminal
+5) The virtual environment should be correctly set up now and the program can be executed using the following command on the command terminal
   ```console
       python survey_1.0.py
   ```
+Don't worry if the program doesn't start immediatly, the first time it is launched it can take 1 or 2 minutes to start
 
 --Linux Ubuntu Operating System instructions--
 1) To open the command terminal, place yourself inside the folder that you extracted
@@ -42,7 +50,8 @@ Once you downloaded the zip file, you will need to extract its content(it will t
 4) The virtual environment should be corretly set up now and the program can be executed using the following command on the command terminal
   ```console
       python survey_1.0.py
-  ``` 
+  ```
+Don't worry if the program doesn't start immediatly, the first time it is launched it can take 1 or 2 minutes to start
 
 The program should now be running and you should be able to take the survey and at the end you can report your results by sending the auto-generated "final_results.txt" file using the survey at the Answer link below, where you can also report any problem encountered when trying to take the survey.
 
