@@ -20,7 +20,7 @@ Once you downloaded the zip file, you will need to extract its content(it will t
 2) then press alt+d and then write 'cmd' (without the '') and press the enter button; Alternatively, you can hold shift and press the right click mouse button and select the 'open in terminal' or the 'powershell' option
 3) now, in order to create the virtual environment to run the python script you will need to enter the following commands in the same order as they are presented:
    ```console
-   python3 -m venv env
+   python -m venv env
    ```
    ```console
    .\env\Scripts\activate
@@ -47,7 +47,7 @@ Don't worry if the program doesn't start immediatly, the first time it is launch
 2) press the right mouse button and open a terminal window
 3) now, in order to create the virtual environment to run the python script you will need to enter the following commands in the same order as they are presented:
    ```console
-   python3 -m venv env
+   python -m venv env
    ```
    ```console
    source env/bin/activate
