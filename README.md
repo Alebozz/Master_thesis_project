@@ -20,14 +20,18 @@ Once you downloaded the zip file, you will need to extract its content(it will t
 2) then press alt+d and then write 'cmd' (without the '') and press the enter button; Alternatively, you can hold shift and press the right click mouse button and select the 'open in terminal' or the 'powershell' option
 3) now, in order to create the virtual environment to run the python script you will need to enter the following commands in the same order as they are presented:
    ```console
-      python3 -m venv env
-      .\env\Scripts\activate
-    ```
+   python3 -m venv env
+   ```
+   ```console
+   .\env\Scripts\activate
+   ```
    if you receive an error after using the .\env\Scripts\activate command, telling you that the system does not let you run scripts, you can use the following commands to solve the problem
    ```console
-      Set-ExecutionPolicy Unrestricted -Scope Process
-      .\env\Scripts\activate
-    ```
+   Set-ExecutionPolicy Unrestricted -Scope Process
+   ```
+   ```console
+   .\env\Scripts\activate
+   ```
    After that you can proceed with the following command to set up the virtual environment in order to run the program. To do so, use the following command in the command terminal
    ```console
       pip install -r requirements.txt
@@ -43,13 +47,17 @@ Don't worry if the program doesn't start immediatly, the first time it is launch
 2) press the right mouse button and open a terminal window
 3) now, in order to create the virtual environment to run the python script you will need to enter the following commands in the same order as they are presented:
    ```console
-      python3 -m venv env
-      source env/bin/activate
-      pip install -r requirements.txt
-    ```
+   python3 -m venv env
+   ```
+   ```console
+   source env/bin/activate
+   ```
+   ```console
+   pip install -r requirements.txt
+   ```
 4) The virtual environment should be corretly set up now and the program can be executed using the following command on the command terminal
   ```console
-      python survey_1.0.py
+  python survey_1.0.py
   ```
 Don't worry if the program doesn't start immediatly, the first time it is launched it can take 1 or 2 minutes to start
 
