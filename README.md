@@ -1,5 +1,5 @@
 # Master_thesis_project
-DO NOT DOWNLOAD NOW, PROJECT HAS BEEN MODIFIED AND SURVEY NEEDS TO BE MODIFIED TO SHOW AND RETRIEVE THE CORRECT DATA TO USE AFTERWARDS \n
+DO NOT DOWNLOAD NOW, PROJECT HAS BEEN MODIFIED AND SURVEY NEEDS TO BE MODIFIED TO SHOW AND RETRIEVE THE CORRECT DATA TO USE AFTERWARDS 
 
 Thanks in advance to everyone that participates in this project for my master thesis.\n
 In order to participate in the survey, having python installed on your personal computer IS REQUIRED! You can install it from the following link https://www.python.org/ftp/python/3.8.10/python-3.8.10.exe
