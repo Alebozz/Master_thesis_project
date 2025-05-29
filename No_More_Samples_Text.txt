@@ -1,0 +1,11 @@
+
+
+
+
+
+
+                                YOU HAVE ANALYZED ALL THE AVAILABLE SAMPLES,
+                                IF YOU WISH TO ANALYZE THEM AGAIN, YOU CAN DO SO BY
+                                DELETING THE "already_done.txt" FILE THAT KEEPS TRACK OF THE
+                                SAMPLES THAT HAVE BEEN ANALYZED SO FAR.
+                                YOU CAN PRESS THE ENTER BUTTON TO CLOSE THE PROGRAM.

@@ -1,0 +1,33 @@
+Thanks in advance for your participation, here below are the instructions of how the program works:
+
+In this survey you will be presented 20 random samples out of 201 possible samples. 
+
+For each sample you will see 4 feature discriminancy maps images computed using Fisher's score method over PSDs of single runs
+In particular, the 4 images represent the 4 equal windows in which the continuos feedback period was divided for understanding the evolution 
+of the discriminancy of the features over the course of the continuous feedback period
+
+Additionally, an interactive grid is shown.
+You will use it to select the features that you consider important (show either emergence or stability)
+for the creation of a classifier for the specific sample.
+Every cell of the grid correspond to a given pair Channel-Frequency feature for the discrimination of the Both Hands vs. Both Feet motor imagery
+
+The application also has a grid that let you select, just by clicking the corresponding square, the channels for which you want to visualize
+the ERD/ERS spectrogram average across trials for both of the considered tasks.
+To finally visualize the images after having selected the desired channels, simply click the button below the channel grid.
+
+In order to confirm the selection of the cells for the given sample you will need to press the enter key.
+After the enter key is pressed, the choices are saved automatically in the "final_results.txt" file
+that will be located in the same folder of the python script you are executing.
+Once you confirm your choices, a new sample will be loaded and displayed in order to be evaluated
+
+After the last sample of the 20 presented is evaluated, the program will close automatically.
+IMPORTANT: the program can be manually closed before all the 20 samples have been analyzed since 
+every time a sample is analyzed and the enter key is pressed, the program automatically saves the choices for that sample.
+
+The survey can be taken as many time as ones wants since all the choices will be stored in the same .txt file without deleting previous results.
+Additionally, the program keeps track of the already seen samples in order to not present them anymore in future executions of the program.
+If you want to have the possibility to analyze again already seen samples, simply delete the "already_done.txt" file in the program folder 
+
+For any other information, please refer to the GitHub page where you downloaded this program.
+
+For starting the survey, PRESS THE ENTER KEY 
