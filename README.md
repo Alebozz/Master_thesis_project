@@ -12,11 +12,11 @@ Examples of the images that will be shown when using the program can bee seen by
 The final goal of the project is to use the knowledge of experts of the field to try and develop a model for the automatic selection of features using the same kind of images that are proposed during the survey.
 
 In order to participate you will need to download this github folder by clicking on the code button and then download zip (see following image for visual example), the download can take a while to complete due to the size of the folder.
-![img_download_from_github](https://github.com/user-attachments/assets/7cbad4dd-7cd0-4aaa-bd76-78339495d496)
+![img_download_from_github](https://github.com/user-attachments/assets/3a350d7d-9a02-4059-b979-7048b87c80d6)
 
 
 Once you downloaded the zip file, you will need to extract its content(it will take a moment since it contains also the dataset with the images for the program to run) and it should look like in the image below.
-![folder structure](https://github.com/user-attachments/assets/5258a691-c6fe-4b1b-9d8a-3e388e5d7670)
+![folder structure](https://github.com/user-attachments/assets/8e800296-2c81-42fd-b134-37abc1ac2ebe)
 
 Then, based on your Operating System you will need to use the following commands on the command terminal:
 
@@ -73,20 +73,21 @@ Answer link: https://suncake.com/v/2b617e23
 This section will contain useful instructions on how to use the program for the survey
 
 - The first screen that you will see is a brief recap of what is already said in this Github page and should look like this
-![initial screen](https://github.com/user-attachments/assets/600ce50f-d5a6-4d1a-857b-edc7aa7d2c82)
+![initial screen](https://github.com/user-attachments/assets/e4388d59-5c9e-424d-aa5c-7ea8e62424c0)
 
 - Once you have read the instructions or if you already know how the program works, you can proceed to the actual survey by pressing the ENTER key
 
 - If everything works correctly, you will now see a screen similar to the one reported in the picture below
-![survey screen](https://github.com/user-attachments/assets/d71a4234-9726-4c52-9c2e-4214ed547b04)
+![survey screen](https://github.com/user-attachments/assets/28aa5276-4462-4c7b-a091-5d0d8bc92a9a)
+
 
 - The images of the Features maps shown on screen are 4, one for each of the time window (equal lenght) in which the continuous feedback period was split into. The image below clarifies the time sequence of the 4 windows
-![window order](https://github.com/user-attachments/assets/d76a5859-9e87-4081-8787-47cb4c86e2cc)
+![window order](https://github.com/user-attachments/assets/6b1b38fb-198b-4aa9-aee5-e470e7883c38)
 
 - An interactive grid is placed on the bottom right side of the screen and it will let you select all the features (channel-frequency pairs) that you consider to be important and useful for discriminating between the Both Hands and Both Feet tasks.
 - To help you in the selection of the features, the program will let you see the ERD/ERS spectrograms for the Both Hands and Both Feet tasks for each individual channel. In order to tell the program which channels to show, you will need to select the cells with the corresponding channel label in the 4x4 grid on the top-right side of the window. Once you selected the channels you are interested in, you need to click the button "Show ERD/ERS spectrograms of selected channels". To make it easy to see which channels you have selected on the 4x4 grid, the selected cells will turn green as in the example picture below.
 
-![seleceted channels](https://github.com/user-attachments/assets/d4e82f23-f4c1-4e9f-98ea-f804f29e14ff)
+![seleceted channels](https://github.com/user-attachments/assets/72547a13-375d-4e67-9292-dad6abc5204e)
 
 - Considering the large amount of images that can appear on screen, the button "close all images" can be used to close all the windows showing the images
 
@@ -99,7 +100,7 @@ This section will contain useful instructions on how to use the program for the 
 - The survey can be taken multiple times and it will show different random samples every time the program is launched since there is a file that keeps track of the samples that were already analyzed. If you want to analyze again samples that you have already seen, simply delete the "already_done.txt" file that is located in the same folder of the program
 
 - If there are no more new samples to analyze, the initial screen of the program will clearly tell you that as can be seen in the below image for reference.
-![final screen](https://github.com/user-attachments/assets/c2af7342-1802-45cb-b151-76c450819bd7)
+![final screen](https://github.com/user-attachments/assets/349c40ff-80a4-4c5b-b984-79b96572df00)
 
 - At the end, to complete the survey you will need to send the "final_results.txt" file using the Answer link (https://suncake.com/v/2b617e23) where you can also report any problems with the program (feedback is highly appreciated)
 
