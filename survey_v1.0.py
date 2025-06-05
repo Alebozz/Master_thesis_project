@@ -336,6 +336,7 @@ while running and sample_index < len(retrieved_samples):
                 mx, my = pygame.mouse.get_pos()
                 # DEFINE THE VARIOUS EVENTS FOR THE MOUSE POSITIONS WHEN CLICKING --> GRID BUTTON, MU TOPOPLOT, BETA TOPOPLOT, CHANNEL POSITION TOPOPLOTS
                 
+                # closes all opened windows if any is open
                 if FIHSER_SCORE_SIZE[0]*2 + BUTTON_X <= mx <= FIHSER_SCORE_SIZE[0]*2 + BUTTON_X + BUTTON_WIDTH and FIHSER_SCORE_SIZE[1]*0.72 <= my <= FIHSER_SCORE_SIZE[1]*0.72 + BUTTON_HEIGHT:
                     try:
                         cv2.destroyAllWindows()
